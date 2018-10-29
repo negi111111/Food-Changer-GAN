@@ -1,9 +1,14 @@
+# Magical Rice Bowl: A Real-time Food Category Change (ACM MM2018)
+
+<p align="center"><img width="100%" src="./examples/anime.png" /></p>
+
 ## Paper
 
-[StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](https://arxiv.org/abs/1711.09020) <br/>
-[Yunjey Choi](https://github.com/yunjey)<sup> 1,2</sup>, [Minje Choi](https://github.com/mjc92)<sup> 1,2</sup>, [Munyoung Kim](https://www.facebook.com/munyoung.kim.1291)<sup> 2,3</sup>, [Jung-Woo Ha](https://www.facebook.com/jungwoo.ha.921)<sup> 2</sup>, [Sung Kim](https://www.cse.ust.hk/~hunkim/)<sup> 2,4</sup>, and [Jaegul Choo](https://sites.google.com/site/jaegulchoo/)<sup> 1,2</sup>    <br/>
-<sup>1 </sup>Korea University, <sup>2 </sup>Clova AI Research (NAVER Corp.), <sup>3 </sup>The College of New Jersey, <sup> 4 </sup>HKUST <br/>
-IEEE Conference on Computer Vision and Pattern Recognition ([CVPR](http://cvpr2018.thecvf.com/)), 2018 (<b>Oral</b>)
+[Magical Rice Bowl: A Real-time Food Category Changer](https://negi111111.github.io/FoodTransferProjectHP/) <br/>
+[Ryosuke Tanno](https://github.com/negi111111), [Daichi Horita](https://github.com/UdonDa), [Takumi Ege](https://github.com/ege-t), and [Keiji Yanai](http://acc.cs.uec.ac.jp/yanai/index.html)   <br/>
+Department of Informatics, The University of Electro-Communication
+<br/>
+ACM International Conference Multimedia ([ACM MM](http://www.acmmm.org/2018/)), 2018 (<b>Demo</b>)
 
 <br/>
 
@@ -18,28 +23,34 @@ IEEE Conference on Computer Vision and Pattern Recognition ([CVPR](http://cvpr20
 
 ### Pretrained model
 
-To download a pretrained model checkpoint, run the script below. The pretrained model checkpoint will be downloaded and saved into `./stargan_celeba_256/models` directory.
+This Repository contains the pretrained model in the `./outputs/models` directory.
 
-To translate images using the pretrained model, run the evaluation script below. The translated images will be saved into `./stargan_celeba_256/results` directory.
-
-```bash
-$ python main.py --mode test --dataset CelebA --image_size 256 --c_dim 5 \
-                 --selected_attrs Black_Hair Blond_Hair Brown_Hair Male Young \
-                 --model_save_dir='stargan_celeba_256/models' \
-                 --result_dir='stargan_celeba_256/results'
-```
+To translate images using the pretrained model, run the [Google Colaboratory](). The translated images will be saved into `./outputs/results` directory.
 
 <br/>
 
 ## Results
 
-### 1. Facial Attribute Transfer on CelebA
-
-<p align="center"><img width="100%" src="jpg/result_celeba1.jpg" /></p>
+Note that additional results can be see at [FoodTransformation Project HP](https://negi111111.github.io/FoodTransferProjectHP/) and [HoloLens Version](https://negi111111.github.io/FoodChangeLensProjectHP/)
 
 ## Citation
 
-If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1711.09020):
+If this work is useful for your research, please cite our [paper](https://negi111111.github.io/FoodTransferProjectHP/):
+
+```
+@InProceedings{tann18,
+  author="Tanno, R. and Horita, D. and Shimoda, W. and Yanai, K.",
+  title="Magical Rice Bowl: Real-time Food Category Changer",
+  booktitle=multimedia,
+  year="2018"
+}
+```
+
+<br/>
+
+## Thanks
+
+This repository is largely based on [StarGAN](https://github.com/yunjey/StarGAN). So, please also cite their [paper](https://arxiv.org/abs/1711.09020).
 
 ```
 @InProceedings{StarGAN2018,
@@ -50,9 +61,3 @@ month = {June},
 year = {2018}
 }
 ```
-
-<br/>
-
-## Acknowledgement
-
-This work was mainly done while the first author did a research internship at [Clova AI Research, NAVER](https://clova.ai/en/research/research-area-detail.html?id=0). We thank all the researchers at NAVER, especially Donghyun Kwak, for insightful discussions.
