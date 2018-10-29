@@ -1,4 +1,8 @@
-# Magical Rice Bowl: A Real-time Food Category Change (ACM MM2018)
+# Magical Rice Bowl: A Real-time Food Category Change <br>(ACM MM2018)
+
+## Ms. Koizumi Loves Ramen Noodles（Japanese Anime）
+
+Ms. Koizumi Loves Ramen Noodles (ラーメン大好き小泉さん Rāmen Daisuki Koizumi-san) is a Japanese manga series by Naru Narumi. It began serialization in Takeshobo's Manga Life Storia magazine in September 2013. A live-action drama series adaptation aired from June 2015 to December 2016. A 12-episode anime television series adaptation co-animated by Studio Gokumi and AXsiZ aired in Japan between January 4 and March 22, 2018. (by [wikipedia](https://en.wikipedia.org/wiki/Ms._Koizumi_Loves_Ramen_Noodles))
 
 <p align="center"><img width="100%" src="./examples/anime.png" /></p>
 
