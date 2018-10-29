@@ -39,9 +39,9 @@ If this work is useful for your research, please cite our [paper](https://negi11
 
 ```
 @InProceedings{tann18,
-  author="Tanno, R. and Horita, D. and Shimoda, W. and Yanai, K.",
-  title="Magical Rice Bowl: Real-time Food Category Changer",
-  booktitle=multimedia,
+  author={Tanno, R. and Horita, D. and Shimoda, W. and Yanai, K.},
+  title={Magical Rice Bowl: Real-time Food Category Changer},
+  booktitle={Proc. of ACM International Conference Multimedia},
   year="2018"
 }
 ```
