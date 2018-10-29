@@ -31,7 +31,7 @@ ACM International Conference Multimedia ([ACM MM](http://www.acmmm.org/2018/)), 
 
 This Repository contains the pretrained model in the `./outputs/models` directory.
 
-To translate images using the pretrained model, run the [Google Colaboratory](). The translated images will be saved into `./outputs/results` directory.
+To translate images using the pretrained model, run the [Google Colaboratory](https://colab.research.google.com/drive/1pZyUwDmQcxWMzqEtFTZ27TxxOw44fsa_). The translated images will be saved into `./outputs/results` directory.
 
 <br/>
 
