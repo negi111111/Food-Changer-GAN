@@ -1,4 +1,4 @@
-# Magical Rice Bowl: A Real-time Food Category Change <br>(ACM MM2018)
+# Magical Rice Bowl: A Real-time Food Category Changer <br>(ACM MM2018)
 
 The proposed system based on a [StarGAN](https://github.com/yunjey/StarGAN) enables us to change the appearance of a given food photo according to the given category keeping the shape of the given food but exchanging its textures. For training, we used two hundred and thirty thousand food images which achieved very natural food category change among ten kinds of typical Japanese foods: ramen noodle, curry rice, fried rice, beef rice bowl, chilled noodle, spaghetti with meat source, white rice, eel bowl, and fried noodle.
 
