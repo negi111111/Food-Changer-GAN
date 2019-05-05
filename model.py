@@ -56,7 +56,7 @@ class Generator(nn.Module):
     def forward(self, x, c):
         # replicate spatially and concatenate domain information
         c = c.unsqueeze(2).unsqueeze(3)
-        #before -> 
+        #before ->
         c = c.expand(c.size(0), c.size(1), x.size(2), x.size(3))
         #c = c.expand(c.size(0), c.size(1), x.size(1), x.size(2)) #after
         x = torch.cat([x, c], dim=1)

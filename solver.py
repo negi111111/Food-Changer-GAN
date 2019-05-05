@@ -83,7 +83,7 @@ class Solver(object):
             self.D = Discriminator(self.image_size, self.d_conv_dim, self.c_dim+self.c2_dim, self.d_repeat_num)
         else:
             self.G = Generator(self.g_conv_dim, self.c_dim, self.g_repeat_num)
-            self.D = Discriminator(self.image_size, self.d_conv_dim, self.c_dim, self.d_repeat_num) 
+            self.D = Discriminator(self.image_size, self.d_conv_dim, self.c_dim, self.d_repeat_num)
 
         # Optimizers
         self.g_optimizer = torch.optim.Adam(self.G.parameters(), self.g_lr, [self.beta1, self.beta2])
@@ -191,7 +191,7 @@ class Solver(object):
                 fixed_c = real_c.clone()
                 for c in fixed_c:
                     if i in [0, 1, 3]:   # Hair color to brown
-                        c[:3] = y[2] 
+                        c[:3] = y[2]
                     if i in [0, 2, 3]:   # Gender
                         c[3] = 0 if c[3] == 1 else 1
                     if i in [1, 2, 3]:   # Aged
@@ -247,7 +247,7 @@ class Solver(object):
         start_time = time.time()
         for e in range(start, self.num_epochs):
             for i, (real_x, real_label) in enumerate(self.data_loader):
-                
+
                 # Generat fake labels randomly (target domain labels)
                 rand_idx = torch.randperm(real_label.size(0))
                 fake_label = real_label[rand_idx]
@@ -265,7 +265,7 @@ class Solver(object):
                 fake_c = self.to_var(fake_c)
                 real_label = self.to_var(real_label)   # this is same as real_c if dataset == 'CelebA'
                 fake_label = self.to_var(fake_label)
-                
+
                 # ================== Train D ================== #
 
                 # Compute loss with real images
@@ -430,6 +430,6 @@ class Solver(object):
             save_image(self.denorm(fake_images.data), save_path, nrow=1, padding=0)
             print('Translated test images and saved into "{}"..!'.format(save_path))
             #print(tmp)
-            
-            
-            
+
+
+
