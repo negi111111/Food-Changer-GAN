@@ -49,6 +49,28 @@ Note that additional results can be see at [FoodTransformation Project HP](https
 
 <br/>
 
+## Mobile Application
+
+- [MagicalRiceBowl](https://itunes.apple.com/jp/app/magicalricebowl/id1459013192?mt=8)
+
+<p>
+<img width="15%" src="./app/app.png" alt="MagicalRiceBowl" align="left">
+This application was Developed by Yuki Izumi. The technology of this applicationu ses the following papers. If this work is useful for your research, please cite our papers.
+</p>
+
+<br/><br/><br/>
+
+<p align="center"><img width="100%" src="./app/screenshot.png" /></p>
+
+```
+@InProceedings{izumi18,
+  author="Izumi, Y. and Horita, D. and Tanno, R. and Yanai, K.",
+  title="Real-Time Image Classification and Transformation Apps on iOS by "Chainer2MPSNNGraph"",
+  booktitle="Proc. of NIPS WS on Machine Learning on the Phone and other Consumer Devices (MLPCD)",
+  year="2018"
+}
+```
+
 ## Citation
 
 If this work is useful for your research, please cite our [paper](https://negi111111.github.io/FoodTransferProjectHP/):
