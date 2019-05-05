@@ -36,8 +36,18 @@ To translate images using the pretrained model, run the [Google Colaboratory](ht
 <br/>
 
 ## Results
-
 Note that additional results can be see at [FoodTransformation Project HP](https://negi111111.github.io/FoodTransferProjectHP/) and [HoloLens Version](https://negi111111.github.io/FoodChangeLensProjectHP/)
+
+<br/>
+
+## Art Works
+- Ryosuke Tanno: Japanese Anime Food Image Transformation, Proc. of NeurIPS Workshop on Machine Learning for Creativity and Design, art works, Motreal, Canada (2018/12). 
+  - Please visit AI Art Gallery → [here](http://www.aiartonline.com/design/ryosuke-tanno/) !!.
+- Ryosuke Tanno: Food Image Transformation, Proc. of ECCV Workshop on Computer Vision for Fashion, Art and Design, art works, Munich, Germany (2018/9). (longlist) .
+  - Please visit Computer Vision Art Gallery Site → [here](https://computervisionart.com/) !!. 
+  - My first visual art with computer vision techniques is [here](https://computervisionart.com/pieces/food-image-transformation/) !!. 
+
+<br/>
 
 ## Citation
 
